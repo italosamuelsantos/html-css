@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astronauta</title>
+    <style>
+        body{
+            height: 100vh;
+            background-image: url(imagens/espaco.jpg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        #maior{
+            position:relative;
+        }
+
+        #astronauta{
+            position:absolute;
+            text-align:center;
+            left: 50%;
+            right: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+    <div id="maior">
+        <div id="astronauta"><img src="imagens/astronauta.png" alt="Astronauta"></div>
+    </div>
+</body>
+</html>
